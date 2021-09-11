@@ -1,0 +1,140 @@
+Music NFO Builder: history
+--------------------------
+
+1.21a - [2011-04-14]
+Fixed: Not read FLAC files with picture tag. Now works OK.
+Changed: Playing time is now at the end of tracklist in NFO file
+Deleted: Add bitrate to every file
+Other bug fixes and minor changes
+
+
+1.21 - [2011-01-16]
+Drag&Drop support.
+Added checkupdate function
+Added template filename
+Some minor changes and correct bugs
+Pre-template version :)
+
+
+
+1.20 - [2007-04-16]
+Option for saving SFV/MD5/M3U/PLS with Unicode filenames
+New control to select drive and directory with support for "My Network Places"
+Unicode support fixed
+Some changes in code. EXE is now a little bit smaller
+Added Bulgarian language. Thanks to EDI16
+Added Cesky language. Thanks to Milan Hrubø
+Added Chinese language. Thanks to Rocksoccer
+Added Turkish language. Thanks to Umut
+
+
+1.19 - [2006-03-25]
+060321: Notes is now stored in 'note.txt' file and loaded at startup
+060319: Added Hungarian language - thanks to Goldshield
+060225: Fixed bug which MNB refuses accept date format like d-MMM-yy.
+060224: Unicode version - All controls are now unicode
+051229: New translation strings:
+		- NFO not saved! 
+		- NFO saved! 
+		- NFO/M3U/PLS/SFV/MD5 succesfully saved! 
+		- Congratulations! 
+		- NFO not complete! 
+		- WARNING
+
+
+1.18 - [2005-11-27]
+051121: Added Russian language - thanks to Makc666
+051116: NFO title (Artist - Album) is now center and looks better
+051115: Improved Various Artists/Compilation Disc support.
+		Now MNB try to detect that processed album is Compilation Disc
+051115: Fixed bug with "floating point..." if processing more than 200 files
+051114: Preview of nfo is enable to edit and correctly save (buggy in v1.16)
+
+
+1.17 - [13/11/2oo5]
+added: Support for Monkey'a Audio 3.98 and 3.99
+added: Few extra language files
+fixed: Bug with APE average quality
+added: FLAC support with VorbisComment
+fixed: Some bugs
+
+
+1.16 - [17/09/2oo4]
+------------------------
+improved: Preview of nfo is enable to edit (not read only)
+fixed: Bug in installer (shortcuts in menu programs was wrong)
+improved: Changed method of generating CRC files:
+	  SFV: filename CRC
+	  MD5: CRC *filename
+improved: Changed generating nfo file - ID3 TAG v1, ID3 TAG v2 and APE TAG are now one line: "TAGS"
+fixed: removed from ini file "www" section
+added: Get genre from ID3 tag
+
+
+1.15 - [15/12/2oo3]
+------------------------
+added: Added to language files memo text "Write anything you want...".
+       Now it can be translated to other languages.
+improved: When checksums are saved, first is crc and next is filename
+
+
+1.14 - [o9/o7/2oo3]
+------------------------
+added: Danish language. Thanx to Cobra for translating
+I decided to release this version becouse I made some small improvements
+and I think it's useful :)
+
+
+1.13 - [22/o6/2oo3]
+------------------------
+fixed: Bug with invalid floating... I think it's OK now
+improved: Ripdate is now automatically set to file creation date
+and other small improvements :)
+
+
+1.12 - [15/o6/2oo3]
+------------------------
+added: Small progress bar for each generated CRC (SFV/MD5)
+added: New version of MD5 hash algorithm (~45% faster)
+added: Dutch language. Thanx to YoG for translation.
+added: Bitrate for every track.
+
+
+1.11 - [25/o5/2oo3]
+------------------------
+added: French language. Thanks to Thierry Barbey for translating.
+added: German language. Thanks to Nils "JeepCreep" for translating.
+added: Catalan language. Thanks to Jesús Moreno for translating.
+added: Spain language. Thanks to Alberto Babiy for translating.
+added: Euskara (Basque) language. Thanks to PaSKuaL'00 for translating.
+fixed: Bug with counting size of files.
+added: Experimental version of APE support. In this version only "track by track"
+       is supported.
+
+
+1.1 - [o3/o5/2oo3]
+------------------------
+fixed: Bug with setting default directory
+added: MD5 checksum support
+added: Various Artists/Compilation Disc support. Small thing but enjoys :)
+added: "Not My Rip (NMR)" support
+
+
+1.oo - [o1/o5/2oo3]
+------------------------
+added: Splash screen :)
+added: Notes for generated NFO files
+fixed: Previous version add some empty lines at the end of the NFO file. Corrected.
+added: Italian language. Thanks to Scream`` for translating.
+added: Default startup directory
+added: Servers, groups, encoders, rippers and cd/dvd model lists are stored in 
+       resource files and loaded on startup.
+added: Multi newsgroups support
+
+
+From this version Music NFO Builder is NOT packed by UPX packer.
+
+
+1.oo Beta - [23/o1/2oo3]
+------------------------
+First public release

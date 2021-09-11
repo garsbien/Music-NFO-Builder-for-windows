@@ -1,0 +1,18 @@
+Music NFO Builder: translation
+------------------------------
+
+
+Adapting the program to a different language
+--------------------------------------------
+
+Music NFO Builder is designed to take full advantage of the language independence.
+All program messages, menus, dialog box, texts etc. are stored
+outside of the program in resource files.
+
+To adapt MNB to another language only the *.lng file in directory LANG has
+to be translated.
+For a native speaker of the language this will take half an hour.
+The author would appreciate to get a copy of the translated resource file
+for inclusion in the next public release. 
+
+If you make any changes in the existing language files, please let me know.

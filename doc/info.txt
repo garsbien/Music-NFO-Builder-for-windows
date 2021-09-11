@@ -1,0 +1,23 @@
+Music NFO Builder: info
+-----------------------
+
+
+
+An ultimate utility for Windows 95/98/NT/2000/ME/XP
+
+It is designed to automatically build nfo, m3u, pls, sfv, md5 from mp3/mpc/ape/flac music files.
+It is fast and easy to use, read files in selected drive and directory
+and lists them on listview style window.
+It is very useful for make info files and checksums and playlist files to posting binary 
+files to usenet.
+
+
+Features:
+---------
+
+- Support for MPEG Audio, MPEGplus (MPC), Monkey Audio (APE), Free Lossless AUdio Codec (FLAC)
+- File info: size, length, bit rate, sample rate, mode, version, layer
+- Including ID3-tags (versions 1.0, 1.1, 2.2, 2.3, 2.4), APE-tags 1.0, 2.0, VorbisComment
+- Generating nice NFO files, checksums (SFV/MD5), and winamp playlists (M3U, PLS)
+- Multilanguage support
+- Unicode support

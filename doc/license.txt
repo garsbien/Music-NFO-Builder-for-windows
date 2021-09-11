@@ -1,0 +1,26 @@
+Music NFO Builder: license
+--------------------------
+
+
+
+Copyright notice:
+
+Copyright (c) 2003-2011 Pawel Piecuch
+All rights reserved by the author.
+This program is donateware for all purposes.
+
+
+
+Contact info:
+
+E-mail: music@nfobuilder.com
+Spoken languages: English, Polish
+
+If you are interested for a new version look at
+http://www.nfobuilder.com
+
+Please write me if you find any bugs in the program.
+
+
+Thanks to:
+Jurgen Faul for his freeware component: Audio Tools Library
